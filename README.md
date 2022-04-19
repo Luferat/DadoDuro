@@ -1,4 +1,3 @@
-
 # DadoDuro
 
 Um simples dado para usar em seus jogos de tabuleiro.
@@ -19,4 +18,4 @@ Para instalar no PC, acesse o aplicativo pelo endereço https://luferat.github.i
 
 Para instalar no mobile (Android ou iOS), usando o navegador, acesse o aplicativo pelo endereço https://luferat.github.io/DadoDuro/ e clique no pedido de instalação na parte inferior da tela, conforme a imagem:
 
-![Instalando aplicativo no mobile](https://luferat.github.io/DadoDuro/screenshot_mobile.png)
+![Instalando aplicativo no Mobile](https://user-images.githubusercontent.com/33375030/164046943-850867a6-a9b2-44fc-8b80-3fb90ae5aa1e.png)
