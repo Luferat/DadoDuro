@@ -13,10 +13,10 @@ Para instalar, siga as dicas abaixo:
 
 Para instalar no PC, acesse o aplicativo pelo endereço https://luferat.github.io/DadoDuro/ e clique no ícone de instalação ao lado do endereço da página, conforme a imagem:
 
-![Instalado aplicativo no PC](https://luferat.github.io/DadoDuro/screenshot_pc.png)
+![Instalando aplicativo no PC](https://luferat.github.io/DadoDuro/screenshot_pc.png)
 
 ### No mobile
 
 Para instalar no mobile (Android ou iOS), usando o navegador, acesse o aplicativo pelo endereço https://luferat.github.io/DadoDuro/ e clique no pedido de instalação na parte inferior da tela, conforme a imagem:
 
-![Instalado aplicativo no mobile](https://luferat.github.io/DadoDuro/screenshot_mobile.png)
+![Instalando aplicativo no mobile](https://luferat.github.io/DadoDuro/screenshot_mobile.png)
