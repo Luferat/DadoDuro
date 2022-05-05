@@ -29,8 +29,9 @@
             font-size: 16px;
             font-family: monospace;
             display: flex;
+            flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: space-between;
             cursor: pointer;
         }
 
@@ -38,27 +39,33 @@
             background: #4682b4;
         }
 
-        #cube .front {
+        h1 {
+            font-size: 1.2rem;
+            margin: 0.5rem;
+            color: white;
+        }
+
+        #dice .front {
             transform: translateZ(100px);
         }
 
-        #cube .back {
+        #dice .back {
             transform: rotateX(-180deg) translateZ(100px);
         }
 
-        #cube .right {
+        #dice .right {
             transform: rotateY(90deg) translateZ(100px);
         }
 
-        #cube .left {
+        #dice .left {
             transform: rotateY(-90deg) translateZ(100px);
         }
 
-        #cube .top {
+        #dice .top {
             transform: rotateX(90deg) translateZ(100px);
         }
 
-        #cube .bottom {
+        #dice .bottom {
             transform: rotateX(-90deg) translateZ(100px);
         }
 
@@ -71,7 +78,7 @@
             perspective-origin: 50% 100%;
         }
 
-        #cube {
+        #dice {
             width: 100%;
             height: 100%;
             /* top: 100px; */
@@ -80,11 +87,11 @@
             transition: transform 6s;
         }
 
-        #cube:hover {
+        #dice:hover {
             cursor: pointer;
         }
 
-        #cube div {
+        #dice div {
             background: white;
             display: block;
             position: absolute;
@@ -209,14 +216,22 @@
             top: 125px;
             left: 125px;
         }
+
+        .by {
+            font-size: small;
+            color: white;
+            margin: .5rem;
+        }
     </style>
-    <title>DadoDuro 2.0</title>
+    <title>DadoDuro 0.2</title>
 </head>
 
 <body id="run">
 
+    <h1>DadoDuro 0.2</h1>
+
     <section class="container">
-        <div id="cube">
+        <div id="dice">
             <div class="front">
                 <span class="dot dot1"></span>
             </div>
@@ -252,16 +267,17 @@
             </div>
         </div>
     </section>
+    <div class="by">By Luferat</div>
 
     <script>
         var min = 1;
-        var max = 24;
+        var max = 25;
         run.onclick = play;
         function play() {
             var xRand = getRandom(max, min);
             var yRand = getRandom(max, min);
-            cube.style.webkitTransform = `rotateX(${xRand}deg) rotateY(${yRand}deg)`;
-            cube.style.transform = `rotateX(${xRand}deg) rotateY(${yRand}deg)`;
+            dice.style.webkitTransform = `rotateX(${xRand}deg) rotateY(${yRand}deg)`;
+            dice.style.transform = `rotateX(${xRand}deg) rotateY(${yRand}deg)`;
         }
         function getRandom(max, min) {
             return (Math.floor(Math.random() * (max - min)) + min) * 90;
