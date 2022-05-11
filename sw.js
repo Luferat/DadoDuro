@@ -1,4 +1,4 @@
-const cacheName = 'DadoDuro';
+const cacheName = 'DadoDuro2';
 self.addEventListener('install', e => {
     e.waitUntil(
         caches.open(cacheName).then(cache => {
